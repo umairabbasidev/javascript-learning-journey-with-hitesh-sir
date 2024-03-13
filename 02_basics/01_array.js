@@ -35,6 +35,8 @@ let arr2 = [6, 7, 8, 9, 10];
 // console.log("A",arr1)
 // summary slice does't effect the original array while splice effect the original array
 
-let a = arr2.splice(1,3,"umair","abbasi")
-console.log(a)
-console.log(arr2)
+// let a = arr2.splice(1,3,"umair","abbasi")
+// console.log(a)
+// console.log(arr2)
+
+
