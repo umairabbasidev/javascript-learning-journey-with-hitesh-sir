@@ -51,3 +51,8 @@ console.log(Object.keys(tinderUser)); // all keys
 console.log(Object.values(tinderUser)); // all values
 console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty("isLoggedIn")); // true
+
+
+// JSON API
+// https://randomuser.me/api/  
+// https://api.github.com/users/umairabbasidev
