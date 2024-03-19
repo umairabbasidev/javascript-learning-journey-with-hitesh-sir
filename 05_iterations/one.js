@@ -19,51 +19,44 @@ for (let i = 1; i <= 10; i++) {
 
 let str = "Umair";
 
-
 for (let i = 0; i < str.length; i++) {
- const element = str[i];
-//  console.log(element)
- 
+  const element = str[i];
+  //  console.log(element)
 }
-
-
 
 // for loop with array
 
-let arr = ["laptops","phones",'chargers',"keyboards","mouse","tablet"]
+let arr = ["laptops", "phones", "chargers", "keyboards", "mouse", "tablet"];
 
 for (let i = 0; i < arr.length; i++) {
- const element = arr[i];
-//  console.log(i,element)
+  const element = arr[i];
+  //  console.log(i,element)
 }
-
 
 // for loop with objects
 
 let obj = {
- name:"Umair",
- age:21,
- skill:"Developer",
- education:"BSCS"
-}
+  name: "Umair",
+  age: 21,
+  skill: "Developer",
+  education: "BSCS",
+};
 // console.log(obj['education'])
-let val = Object.values(obj)
+let val = Object.values(obj);
 
 // console.log(val)
 // console.log(obj['name'])
-let getValueFormLoop = []
+let getValueFormLoop = [];
 
 for (let i = 0; i < Object.keys(obj).length; i++) {
   // console.log(i)
 
   // console.log(`The User ${Object.keys(obj)[i]} is ${Object.values(obj)[i]}`)
-  let data = `The User ${Object.keys(obj)[i]} is ${obj[Object.keys(obj)[i]]}`
-// getValueFormLoop.push(data)
-
+  let data = `The User ${Object.keys(obj)[i]} is ${obj[Object.keys(obj)[i]]}`;
+  // getValueFormLoop.push(data)
 }
 
 // console.log(getValueFormLoop)
-
 
 // understand break and continue keyword in js
 
@@ -77,13 +70,14 @@ for (let i = 0; i < Object.keys(obj).length; i++) {
 //   console.log(element)
 // }
 
-
 // let myArray = ["umair","noman","ali","asad","marsad"];
 // for (let index = 0; index < myArray.length; index++) {
 //   const element = myArray[index];
 //   if (element === "asad") {
 //     // console.log(`Got ${element} name`)
-//     continue   
+//     continue
 //   }
 //   console.log(element)
 // }
+
+
