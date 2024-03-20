@@ -4,7 +4,7 @@ h1.setAttribute("title", "myTitle");
 h1.id = Math.floor(Math.random() * 10 + 1);
 h1.style.color = "blue";
 h1.style.textAlign = "center";
-// h1.innerHTML = "<h3>Muhammad Umair Abbasi</h3>"; 
+// h1.innerHTML = "<h3>Muhammad Umair Abbasi</h3>";
 let text = document.createTextNode("Muhammad Umair Abbasi"); // moreoptimization as above
 h1.appendChild(text);
 // document.body.appendChild(h1)
